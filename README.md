@@ -20,6 +20,7 @@
 - Run time is currently 10 minutes:
   - Only One Spec with all the tests
   - In real time multiple specs would run parallel – meaning more tests in the same time
+  - Due to time constraints and searching for elements by text it also takes longer, colaborating with devs to work in unique locators, even in helping to narrow scope would also knock the time down for a test such as this.  I could have used locators looking for the :nth... but those can change frequiently dependent on the site functionality
   - The Spec is hitting each Side Nav button, then validating URL, and waiting for desired page element to be visible (Also adding to time)
   - Tests are writing to MochaAwesome, as well as recording to Cypress Dashboard, which could be removed for an optimized speed
 

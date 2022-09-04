@@ -1,5 +1,4 @@
-//Drata Notes: Upped the default view port to test under laptop conditions
-//Could lower to test hamburger - smaller viewport view
+//Drata Notes: Changed viewport to iphone view
 
 const { defineConfig } = require("cypress");
 

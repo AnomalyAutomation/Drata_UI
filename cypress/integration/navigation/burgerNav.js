@@ -3,11 +3,11 @@
 import example from "../../fixtures/example.json";
 import ResourcesPage from "../../support/pageObjects/resources/ResourcesPage";
 
-// let windowErrorSpy;
-// Cypress.on("window:before:load", (win) => {
-//   windowErrorSpy = cy.spy(win.console, "error");
-// });
-// const DELAY = 1000;
+let windowErrorSpy;
+Cypress.on("window:before:load", (win) => {
+  windowErrorSpy = cy.spy(win.console, "error");
+});
+const DELAY = 1000;
 
 describe("Burger Navigation", function () {
   const Resource = new ResourcesPage();
@@ -16,11 +16,11 @@ describe("Burger Navigation", function () {
     //Since I'm running a forEach on my fixture data, I instead import it in.
   });
 
-  // afterEach(() => {
-  //   cy.wait(DELAY).then(() => {
-  //     expect(windowErrorSpy).to.not.be.called;
-  //   });
-  // });
+  afterEach(() => {
+    cy.wait(DELAY).then(() => {
+      expect(windowErrorSpy).to.not.be.called;
+    });
+  });
 
   example.sideNav.forEach((pair) => {
     it(`Verifying ${pair[0]} / ${pair[1]} : Plus pm screen element contains: ${pair[2]}`, () => {

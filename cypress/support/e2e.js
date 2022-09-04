@@ -17,9 +17,9 @@
 import "./commands";
 import "cypress-xpath";
 import "cypress-real-events";
-import failOnConsoleError from "cypress-fail-on-console-error";
+// import failOnConsoleError from "cypress-fail-on-console-error";
 
-failOnConsoleError();
+// failOnConsoleError();
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

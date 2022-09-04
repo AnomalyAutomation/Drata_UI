@@ -17,5 +17,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          build: npm run Electron
+          run: npm run Electron
           #start: npm start

@@ -1,5 +1,5 @@
 // Notes: Cypress runs Async in the background
-import example from "/Cypress_Drata/cypress/fixtures/example.json";
+import example from "/Drata_UI/cypress/fixtures/example.json";
 import ResourcesPage from "../../support/pageObjects/resources/ResourcesPage";
 // let windowErrorSpy;
 // Cypress.on("window:before:load", (win) => {

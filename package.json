@@ -9,7 +9,8 @@
     "testRunner": "node_modules\\.bin\\cypress open",
     "chromeTest": "npm run test -- --headed --browser chrome",
     "recordDashboard": "npm run test -- --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12",
-    "runElectron" : "npm run test -- --reporter mochawesome --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12"
+    "Electron" : "npm run test -- --reporter mochawesome --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12",
+    "Chrome" : "npm run test -- --reporter mochawesome --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12 --browser chrome"
   },
   "author": "",
   "license": "ISC",

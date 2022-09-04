@@ -1,0 +1,30 @@
+{
+  "name": "cypress_poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "testRunner": "node_modules\\.bin\\cypress open",
+    "chromeTest": "npm run test -- --headed --browser chrome",
+    "recordDashboard": "npm run test -- --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12",
+    "runElectron" : "npm run test -- --reporter mochawesome --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12"
+  },
+  "author": "",
+  "license": "ISC",
+  "chromeWebSecurity": "false",
+  "devDependencies": {
+    "@types/lodash": "^4.14.184",
+    "cypress": "^10.7.0",
+    "cypress-fail-on-console-error": "^3.2.1",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.0.0",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "cypress-iframe": "^1.0.1",
+    "cypress-real-events": "^1.7.1",
+    "lodash": "^4.17.21"
+  }
+}

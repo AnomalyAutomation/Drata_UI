@@ -1,5 +1,8 @@
 # Cypress_Drata
 **Run Notes:**
+Node ver. v16.13.0
+.nvmrc file added
+
 
 **CMD Line Execution:**
 

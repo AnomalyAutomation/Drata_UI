@@ -10,10 +10,8 @@ import ResourcesPage from "../../support/pageObjects/resources/ResourcesPage";
 describe("Burger Navigation", function () {
   const Resource = new ResourcesPage();
   before(() => {
-    //Loading Fixtures to Drive my data from
-    cy.fixture("example").then(function (data) {
-      this.data = data;
-    });
+    //I would load my fixture here if I was using it inside of an IT block,
+    //Since I'm running a forEach on my fixture data, I instead import it in.
   });
 
   // afterEach(() => {

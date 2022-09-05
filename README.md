@@ -10,7 +10,7 @@ Node ver. v16.13.0
   - Run on Electron - Update Package HTML file for MochaAwesome Reporting - Update cypress Dashboard Reporting
 - "npm run Chrome"
   - Run on Chrome - Update Package HTML file for MochaAwesome Reporting - Update cypress Dashboard Reporting
-- "npm run chromeHead"
+- "npm run chrome-Head"
   - Run on Chrome – Headed - Update Package HTML file for MochaAwesome Reporting - Update cypress Dashboard Reporting
 
 **Git Actions Execution:**

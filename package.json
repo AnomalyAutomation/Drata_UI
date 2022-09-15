@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\\.bin\\cypress run",
-    "testRunner": "node_modules\\.bin\\cypress open",
-    "chromeHead": "npm run test -- --headed --browser chrome",
+    "test": "npx cypress run",
+    "test-Runner": "npx cypress open",
+    "chrome-Head": "npm run test -- --headed --browser chrome",
     "Electron" : "npm run test -- --reporter mochawesome --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12",
     "Chrome" : "npm run test -- --reporter mochawesome --record --key 7c0c868c-014a-469f-9f0a-e5c02e35bf12 --browser chrome"
   },

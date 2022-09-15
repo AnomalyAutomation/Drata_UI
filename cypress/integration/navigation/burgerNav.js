@@ -1,5 +1,3 @@
-// Notes: Cypress runs Async in the background
-//import example from "/Drata_UI/cypress/fixtures/example.json";
 import example from "../../fixtures/example.json";
 import ResourcesPage from "../../support/pageObjects/resources/ResourcesPage";
 
